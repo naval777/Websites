@@ -1,0 +1,29 @@
+
+div#prof_pic{
+	position:relative;
+	margin-top: 10%;
+	margin-left:25%;
+	background-color:#fff;
+	border: 2px dotted #000;
+	width:45%;
+	height:25%;
+	float:left;
+	z-index:22;
+}
+#prof_img{
+ max-width: 100%;
+	width:384px;
+	height:200px;
+	}
+div.prof_detail{
+	position:relative;
+	margin-top: 5%;
+	margin-left:5%;
+	color:#000;
+	background-color:#fff;
+	border: 2px dotted #000;
+	width:90%;
+	height:33%;
+	float:left;
+	z-index:22;
+}

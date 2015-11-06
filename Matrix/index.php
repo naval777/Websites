@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<head>
+<title> Amogh</title>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="author" href="https://www.google.com/+navaltharun"/>
+<script src="index.js"></script>
+</head>
+<body>
+<div id='wrapper'>
+<span id="holder"  class='holder'></span><br />
+<span id="holder2" class='holder'></span><br /><br />
+<span id="holder3" class='holder'></span><br />
+<span id="holder4" class='holder'></span><br /><br />
+<span id="holder5" class='holder'></span><br />
+<span id="holder6" class='holder'></span>
+</div>
+</body>
+</html>

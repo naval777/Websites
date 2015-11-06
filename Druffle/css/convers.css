@@ -1,0 +1,7 @@
+
+div.left{
+background: -webkit-gradient(radial, 219 133, 0, 244 338, 632, from(#E47297),to(#FFFFFF)); /* For Safari 5.1 to 6.0  ba059a,FFB42E,#CA278C */
+    background: -o-gradient(radial, 219 133, 0, 244 338, 632, from(#d97b14), to(#FFFFFF)); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient( #d97b14, #FFFFFF); /* For Firefox 3.6 to 15 */
+    background: gradient(radial, 219 133, 0, 244 338, 632, from(#d97b14), to(#FFFFFF)); /* Standard syntax */
+	}

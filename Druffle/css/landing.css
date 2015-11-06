@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+margin:0;
+padding:0;
+border:0;
+max-width:100%;
+}
+html, body{
+		height:100%;}
+div#image{
+	position:absolute;
+	left:0;
+	width:100%;
+	height:100%;
+    background: url(1.jpg) no-repeat center fixed #000 ; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+	z-index:1;
+}
+		
+
+div#blur{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	visibility:hidden;
+	opacity:0.95;
+	z-index:200;
+}
+div#play{
+	position:absolute;
+	left:20%;
+	top:70%;
+	width:50px;
+	height:50px;
+	z-index:44;
+
+}
+video{
+	position:absolute;
+	top:15%;
+	left:20%;
+	 width:60%;
+	 height:60%;
+	z-index:210;
+
+}
+div#inpt{
+	position:absolute;
+	left:73%;
+	width:25%;
+	top:60%;
+	height:30%;
+	text-align:center;
+	background-color:transparent;
+	float:left;
+	z-index:30;
+}
+input[type='text'],[type='email']{
+    position:relative;
+	background-color:#fcfcfc;
+	font-size: 1.2em;
+	width:95%;
+	margin-top:20px;
+	height: 30px;
+	text-align:left;
+	border:1px outset #aaa;
+	border-radius: 4px;
+	float:left;
+	}
+	[type='submit']{
+	background-color:#f26522;
+	
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-weight:800;
+	margin-top:20px;
+	width: 190px;
+	padding:7px;
+	
+	  
+	}
+	input[type= 'text']:hover,[type= 'email']:hover{
+	background-color:#e4f8f4;
+	}
+		[type='checkbox']	{
+		margin-top:20px;
+		}
+	label{
+	display:inline;
+	color:#fff;
+	font-size:1.2em;
+	}	
+		
+div#footer{
+ position:absolute;
+ width:100%;
+ top:143%;
+ height:7%;
+ bottom:0;
+ background-color: #000;
+ font-family: "heveltica", sans-serif;
+ font-size:.9em;
+ z-index:100;
+}			

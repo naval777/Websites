@@ -1,0 +1,6 @@
+sessions:
+email
+userId
+personId
+groupId   : this is for other person group page view
+mygroupId

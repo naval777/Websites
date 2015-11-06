@@ -1,0 +1,7 @@
+Druffle notes:
+
+clicking a pic should load user profile or restaur. 
+search should return results for the same session user - AJAX.
+there should be profile edit page.
+images must update by search terms.
+user details must be tagged with the pics on server.

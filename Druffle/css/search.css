@@ -1,0 +1,69 @@
+div.left{
+background-color:#fff;
+	}
+
+div#left-title{
+	font-size: 1.2em;
+	top:60px;
+	padding:5%;
+}
+
+input[name= 'by_name'],[name= 'by_college']{
+	background-color:#fcfcfc;
+	font-size: 1.2em;
+	margin-top: 20%;
+	width:90%;
+	opacity: 1;
+	height: 30px;
+	text-align:left;
+	border-radius: 5px;
+	}
+div#name_box{
+	position:absolute;
+	top:25%;
+	width:90%;
+	min-height:20%;
+	height:auto;
+	color:#000;
+	text-align:left;
+	margin-left:5%;
+	border: 1px solid #00ff00;
+	Z-INDEX:81;
+}
+div#name_box ul{
+width:100%;
+list-style-type:none;
+}
+div#name_box ul li{
+	padding-top:5px;
+	height:33px;
+	text-align:center;
+	border:1px solid #ff0000
+}
+a.txt_link{text-decoration:none;}
+div#coll_box{
+	position:absolute;
+	width:90%;
+	top:40%;
+	height:20%;
+	margin-left:5%;
+	text-align:left;
+	border: 1px solid #0000ff;
+	Z-INDEX:80;
+}
+input#search_but{
+
+	border:0;
+	border-radius: 5px;
+	color:#fff;
+	margin-top:60%;
+	margin-left:2%;
+	width:190px;
+	padding:7px;
+	background-color:#1abc9c;
+	background: -webkit-linear-gradient(left top,#1abc9c,#16a085); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right,#1abc9c,#16a085); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right,#1abc9c,#16a085); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right,#1abc9c,#16a085); /* Standard syntax */
+	z-index: 50;
+}
