@@ -7,4 +7,4 @@ Matrix: A small fun interface recreating Matrix scene.
 
 Druffle: A dating site based on similar concept as Grouper. Backend code partially contributed by others (Incomplete)
 
-Amogh:( www.auvamogh.in ) Website for AUV-IITM.
+Amogh:Website for AUV team of IIT Madras.
